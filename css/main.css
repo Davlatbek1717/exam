@@ -1,6 +1,7 @@
 :root {
     --hover-btn: #30C88F;
     --active-btn: #2D314D;
+    --footer-color: #2D314D;
 }
 
 *,
@@ -37,6 +38,10 @@
     list-style: none;
     gap: 1.875em;
     margin-right: 100px;
+}
+
+.navigation-items__item:hover {
+    border-bottom: 2px solid #33D35E;
 }
 
 .header-container__link {
@@ -252,12 +257,12 @@
 .choose-container__item--text {
     color: #9597A5;
     font-family: "Public Sans";
-    font-size: 16px;
+    font-size: 1em;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: -0.25px;
-    width: 255px;
+    width: 15.9375em;
     margin: 0 auto;
 }
 
@@ -283,13 +288,73 @@
     }
 }
 
+/* article-container */
+
 .article-container__heading {
     color: #2D314D;
     font-family: "Public Sans";
-    font-size: 40px;
+    font-size: 2.5em;
     font-style: normal;
     font-weight: 100;
-    line-height: 64px;
+    line-height: 4em;
     letter-spacing: -0.714px;
-    margin-bottom: 40px;
+    margin-bottom: 2.5em;
+}
+
+/* footer */
+
+.footer-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 165px;
+    margin-top: 80px;
+    background: var(--footer-color);
+}
+
+.first-box__items {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.first-box__images {
+    width: 30px;
+    flex-shrink: 0;
+}
+
+.footer-container__items {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.footer-container__item--link {
+    width: 160px;
+    color: #FFF;
+    font-family: "Public Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.234px;
+    text-decoration: none;
+}
+
+.footer-container__item--link:hover {
+    color: #30C88F;
+}
+
+.footer-right-box__text {
+    color: #FFF;
+    text-align: right;
+    font-family: "Public Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.234px;
+    opacity: 0.5;
+    margin-top: 24px;
 }
