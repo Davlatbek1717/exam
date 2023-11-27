@@ -265,7 +265,7 @@
     .choose-container {
         text-align: center;
     }
-    
+
     .choose-container__items {
         display: flex;
         flex-direction: column;
@@ -276,9 +276,20 @@
     .choose-container {
         text-align: center;
     }
-    
+
     .choose-container__items {
         display: flex;
         flex-direction: column;
     }
+}
+
+.article-container__heading {
+    color: #2D314D;
+    font-family: "Public Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 64px;
+    letter-spacing: -0.714px;
+    margin-bottom: 40px;
 }
