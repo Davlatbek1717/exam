@@ -30,6 +30,8 @@ body {
     flex-shrink: 0;
     align-items: center;
     line-height: 5em;
+    /* position: fixed;
+    justify-content: space-between; */
 }
 
 .header-container-navigation {
